@@ -1,14 +1,3 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -92,14 +81,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [UIkit](https://developer.apple.com/documentation/uikit)
+* [Firebase](https://firebase.google.com/)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -111,29 +96,18 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/mamascor/high-waters.git
    ```
-3. Install NPM packages
+2. Install Firebase, go to xcode, file, add packages and paste this link.
    ```sh
-   npm install
+   https://github.com/firebase/firebase-ios-sdk
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Select Database as the option and set up your database in test mode
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -180,23 +154,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/MarcoAaMa) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/mamascor/high-waters](https://github.com/mamascor/high-waters)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,16 +178,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/mamascor/high-waters.svg?style=for-the-badge
+[contributors-url]: https://github.com/mamascor/high-waters/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mamascor/high-waters.svg?style=for-the-badge
+[forks-url]: https://github.com/mamascor/high-waters/network/members
+[stars-shield]: https://img.shields.io/github/stars/mamascor/high-waters.svg?style=for-the-badge
+[stars-url]: https://github.com/mamascor/high-waters/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mamascor/high-waters.svg?style=for-the-badge
+[issues-url]: https://github.com/mamascor/high-waters/issues
+[license-shield]: https://img.shields.io/github/license/mamascor/high-waters.svg?style=for-the-badge
+[license-url]: https://github.com/mamascor/high-waters/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.PNG
+[linkedin-url]: https://linkedin.com/in/marcoamascorro
+[product-screenshot]: images/screenshot.png

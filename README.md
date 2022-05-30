@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.PNG" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">High Waters</h3>
@@ -66,7 +66,10 @@
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
+<img src="images/screenshot.png" width="200" height="100">
 
 
 

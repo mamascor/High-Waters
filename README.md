@@ -10,7 +10,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -160,17 +159,6 @@ Don't forget to give the project a star! Thanks again!
 Your Name - [@twitter_handle](https://twitter.com/MarcoAaMa) - email@email_client.com
 
 Project Link: [https://github.com/mamascor/high-waters](https://github.com/mamascor/high-waters)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

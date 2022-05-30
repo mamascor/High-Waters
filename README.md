@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/screenshot.png" width="250" height="541">
+<img src="images/screenshot.PNG" width="250" height="541">
 
 
 

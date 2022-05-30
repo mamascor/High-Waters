@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/MarcoAaMa) - email@email_client.com
+Your Name - [@MarcoAnMa](https://twitter.com/MarcoAaMa) - marco.mascorroa@gmail.com
 
 Project Link: [https://github.com/mamascor/high-waters](https://github.com/mamascor/high-waters)
 

@@ -13,6 +13,12 @@
 		CE7075982843F49D00F95DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7075962843F49D00F95DEA /* Main.storyboard */; };
 		CE70759A2843F49F00F95DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7075992843F49F00F95DEA /* Assets.xcassets */; };
 		CE70759D2843F49F00F95DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70759B2843F49F00F95DEA /* LaunchScreen.storyboard */; };
+		CE7075A52843F51D00F95DEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7075A42843F51D00F95DEA /* Extensions.swift */; };
+		CE7075A7284405FE00F95DEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7075A6284405FE00F95DEA /* GoogleService-Info.plist */; };
+		CE7075AA2844064A00F95DEA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE7075A92844064A00F95DEA /* FirebaseDatabase */; };
+		CE7075AC284406C700F95DEA /* FloodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7075AB284406C700F95DEA /* FloodManager.swift */; };
+		CE7075AE2844087600F95DEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7075AD2844087600F95DEA /* Constants.swift */; };
+		CE7075B428440D2100F95DEA /* FloodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7075B328440D2100F95DEA /* FloodModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,11 @@
 		CE7075992843F49F00F95DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE70759C2843F49F00F95DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE70759E2843F49F00F95DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7075A42843F51D00F95DEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE7075A6284405FE00F95DEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE7075AB284406C700F95DEA /* FloodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodManager.swift; sourceTree = "<group>"; };
+		CE7075AD2844087600F95DEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE7075B328440D2100F95DEA /* FloodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7075AA2844064A00F95DEA /* FirebaseDatabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +70,50 @@
 			children = (
 				CE7075902843F49D00F95DEA /* AppDelegate.swift */,
 				CE7075922843F49D00F95DEA /* SceneDelegate.swift */,
-				CE7075942843F49D00F95DEA /* ViewController.swift */,
+				CE7075B228440D1600F95DEA /* Model */,
+				CE7075B128440D0400F95DEA /* Utils */,
+				CE7075B028440CFA00F95DEA /* Manager */,
+				CE7075AF28440CE100F95DEA /* Contrller */,
 				CE7075962843F49D00F95DEA /* Main.storyboard */,
 				CE7075992843F49F00F95DEA /* Assets.xcassets */,
 				CE70759B2843F49F00F95DEA /* LaunchScreen.storyboard */,
 				CE70759E2843F49F00F95DEA /* Info.plist */,
+				CE7075A6284405FE00F95DEA /* GoogleService-Info.plist */,
 			);
 			path = "High Waters";
+			sourceTree = "<group>";
+		};
+		CE7075AF28440CE100F95DEA /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7075942843F49D00F95DEA /* ViewController.swift */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		CE7075B028440CFA00F95DEA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE7075AB284406C700F95DEA /* FloodManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CE7075B128440D0400F95DEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE7075AD2844087600F95DEA /* Constants.swift */,
+				CE7075A42843F51D00F95DEA /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE7075B228440D1600F95DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE7075B328440D2100F95DEA /* FloodModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,9 @@
 			dependencies = (
 			);
 			name = "High Waters";
+			packageProductDependencies = (
+				CE7075A92844064A00F95DEA /* FirebaseDatabase */,
+			);
 			productName = "High Waters";
 			productReference = CE70758D2843F49D00F95DEA /* High Waters.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,9 @@
 				Base,
 			);
 			mainGroup = CE7075842843F49D00F95DEA;
+			packageReferences = (
+				CE7075A82844064A00F95DEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CE70758E2843F49D00F95DEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE70759D2843F49F00F95DEA /* LaunchScreen.storyboard in Resources */,
+				CE7075A7284405FE00F95DEA /* GoogleService-Info.plist in Resources */,
 				CE70759A2843F49F00F95DEA /* Assets.xcassets in Resources */,
 				CE7075982843F49D00F95DEA /* Main.storyboard in Resources */,
 			);
@@ -139,8 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7075952843F49D00F95DEA /* ViewController.swift in Sources */,
+				CE7075B428440D2100F95DEA /* FloodModel.swift in Sources */,
+				CE7075AC284406C700F95DEA /* FloodManager.swift in Sources */,
 				CE7075912843F49D00F95DEA /* AppDelegate.swift in Sources */,
 				CE7075932843F49D00F95DEA /* SceneDelegate.swift in Sources */,
+				CE7075A52843F51D00F95DEA /* Extensions.swift in Sources */,
+				CE7075AE2844087600F95DEA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +350,15 @@
 				DEVELOPMENT_TEAM = U43K5UN843;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "High Waters/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location will be used to get information about floods";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will be used to get information about floods";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +368,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +382,15 @@
 				DEVELOPMENT_TEAM = U43K5UN843;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "High Waters/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location will be used to get information about floods";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location will be used to get information about floods";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE7075A82844064A00F95DEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE7075A92844064A00F95DEA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE7075A82844064A00F95DEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE7075852843F49D00F95DEA /* Project object */;
 }

@@ -178,4 +178,4 @@ Project Link: [https://github.com/mamascor/high-waters](https://github.com/mamas
 [license-url]: https://github.com/mamascor/high-waters/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/marcoamascorro
-[product-screenshot]: images/screenshot.PNG=250x250
+[product-screenshot]: images/screenshot.PNG =250x250

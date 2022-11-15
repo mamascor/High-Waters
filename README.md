@@ -65,17 +65,7 @@
 <img src="images/screenshot.PNG" width="250" height="541">
 
 
-
-```
-
-
-func GetLocation(){
-    
-}
-
-
-
-```
+---
 
 
 ### Built With

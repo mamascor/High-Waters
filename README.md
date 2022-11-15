@@ -66,6 +66,18 @@
 
 
 
+```
+
+
+func GetLocation(){
+    
+}
+
+
+
+```
+
+
 ### Built With
 
 * [UIkit](https://developer.apple.com/documentation/uikit)

@@ -19,7 +19,7 @@ struct FloodService {
         let latitude = location.latitude
         
         let values: [String:Any] = ["longitude": longitude, "latitude": latitude]
-        
+        //uploading coordinates
         let ref = REF_FLOODS.childByAutoId()
         
         ref.updateChildValues(values) { error, ref in
